@@ -3,7 +3,7 @@
 // stack (primitive data types)
 
 // heap (non-primitive)
-
+l̥
 let myname = "chaitanya";
 console.log(myname)
 
