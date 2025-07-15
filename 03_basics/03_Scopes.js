@@ -23,9 +23,6 @@ if (true) {
 // +++++++++++++++++++++++ Interesting +++++++++++++++++++++++
 
 
-
-
-
 //+++++++++++++++++++++++++ hoisting ++++++++++++++++++++++++++++
 // when i declare a function like below type then we cant access that function in their earlier line
 //
@@ -35,6 +32,7 @@ const addTwo = function (num) { //expressions
     return num + 1;
     // console.log(addTwo);
 }
+
 
 addTwo(8) // only valid from after the declaration of the function in the program 
 
