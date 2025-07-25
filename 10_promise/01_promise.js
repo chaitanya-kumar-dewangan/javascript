@@ -87,18 +87,13 @@
 //     // console.log('fetch the Raw Data')
 //     // console.log(response);
 //     console.log("feth data in format");
-
 //     console.log(data);
-
 // }
-
 // getAllUsers()
 
 fetch('https://randomuser.me/api/')
     .then((response) => {
         return response.json()
-
-
 
     })
     .then((data) => {
